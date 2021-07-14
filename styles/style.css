@@ -9,12 +9,14 @@
  ------------------- */
  body{
     font-family: 'Poppins', sans-serif;
+    
  }
 
 .top-banner{
     display: flex;
     padding-left: 50px;
     margin-bottom: 3px;
+    
    }
 .end-banner{
     background-color: rgba(0, 0, 255, 0.685);
@@ -153,5 +155,16 @@ p{
 .logo img{
     width: 483px;
     height:110px;
-    padding-left: 150px;
+    padding-left: 350px;
+}
+.social-media{
+    padding-left: 600px;
+    font-size: 30px;
+}
+.social-media a{
+    text-decoration: none;
+    color: grey;
+}
+.copyright{
+    padding-left: 570px;
 }
