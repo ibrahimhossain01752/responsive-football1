@@ -26,9 +26,16 @@
 small{
     display: block;
 }
+h1{
+    font-size: 48px;
+    font-weight: bold;
+}
 h2{
     font-size: 64px;
     font-weight: bold;
+}
+.p{
+    font-size: 16px;
 }
 .copa{
     margin-left: 90px;
@@ -40,8 +47,8 @@ h2{
     text-decoration: none;
     background-color:#E02C6D ;
     color: #FFFFFF;
-    padding: 5px;
-    width: 140px;
+    padding: 10px;
+    width: 170px;
 }
 .button a{
     text-decoration: none;
@@ -88,9 +95,9 @@ h2{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 2px;
-    grid-row-gap: -1000px;
     padding-left: 35px;
     align-items: center;
+    
 }
 
 .player img{
@@ -116,4 +123,35 @@ p{
     border-radius: 5px;
     padding-bottom: 10px;
    
+}
+#player-end{
+    margin-bottom: 120px;
+}
+
+
+/* ---------------------
+  Copa America 
+  --------------------*/
+.copa-america{
+    display: flex;
+    margin-bottom: 150px;
+}
+  .match img{
+    width: 567px;
+    height: 427px;
+    padding-left: 130px;
+  }
+  .end-section{
+      padding-left: 85px;
+  }
+
+
+  /* ---------------------
+      footer section 
+      ---------------------*/
+
+.logo img{
+    width: 483px;
+    height:110px;
+    padding-left: 150px;
 }
