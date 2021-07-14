@@ -219,32 +219,35 @@ p{
  Mobile Devices 
  --------------------*/
 
- @media only screen and (max-width:688px)  {
-     .top-banner, .container{
-         width: 100%;
-         margin-left: 0;
+ @media only screen and(max-width:688px) {
+     .top-banner{
          flex-direction: column;
-         padding-left: 10px;
          
+     }
+     .end-banner{
+         flex-direction: column;
+         align-items: center;
+     }
+     .container{
+         display: grid;
          
+     }
+     .player, .copa-america{
+        grid-template-columns: repeat(1,1fr);
      }
      
      
-     .player, .end-section, .photo-album {
-         grid-template-columns: repeat(3, 1fr);
-         flex-direction: column;
-         
-         
-     }
  }
 
- /* ipad devices */
 
- @media only screen and (min-width:668px) and (max-width:992px) {
-     .container{
-         width:100%;
+ /* pad query */
+
+ @media only screen and (min-width:688px) and (max-width:992px) {
+     .top-banner{
+         background-color: blueviolet;
+         flex-direction: column;
      }
-     .player, .end-section, .photo-album{
-        grid-template-columns: repeat(2,1fr);
+     .container, .copa-america{
+         grid-template-columns: repeat(2,1fr);
      }
  }
